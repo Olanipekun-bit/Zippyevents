@@ -1,12 +1,12 @@
 import { BrowserRouter } from 'react-router-dom';
 import Hero from './Components/Hero';
-import About from './Components/About';
+import AboutUs from './Components/AboutUs';
 
 function App() {
  return(
     <BrowserRouter>
         <Hero/>
-        <About/>
+        <AboutUs/>
     </BrowserRouter>
  );
 }
