@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 export default function Navbar() {
+  
     return (
     <>
       <nav className="text-black space-x-4 p-4 flex text-right justify-end items-center">
-        <nav className="absolute left-4 top-4">
+        <div className="absolute left-4 top-4">
           <Link to="/" className="text-2xl font-bodoni text-blue-500">
-            <span className="text-4xl">Z</span>IPPY{" "}
+            <span className="text-4xl">Z</span>IPPY
             <span className="text-4xl">E</span>VENTS
           </Link>
-        </nav>
-        <Link to="/home">Home</Link>
+        </div>
+        <Link to="/">Home</Link>
         <Link to="/services">Services</Link>
         <Link to="/about">About Us</Link>
         <Link to="/contact">Contact Us</Link>

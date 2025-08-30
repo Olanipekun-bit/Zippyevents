@@ -1,5 +1,6 @@
 import image2 from "../assets/images/image2.png"
-export default function AboutUs() {
+import { Link } from "react-router-dom";
+export default function About() {
   return (
     <div className="flex ml-18.5 mt-10.5">
          <div>
