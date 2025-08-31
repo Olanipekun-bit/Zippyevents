@@ -16,8 +16,9 @@ export default function About() {
         flawless execution, and memorable experiences that reflect <br />
         your brand’s identity.
       </p>
-      <div className="flex space-x-25 mt-10 mb-10 bg-yellow-50 w-108 pt-2.5 pb-2.5">
-        <p className="text-center">
+      <div className=" mt-10 mb-10 bg-yellow-50 w-108 pt-2.5 pb-2.5">
+        <div className=" flex space-x-25 ml-15">
+               <p className="text-center">
           <span className="text-2xl font-semibold ">2025</span> <br />
           ESTABLISHED
         </p>
@@ -25,6 +26,7 @@ export default function About() {
           <span className="text-2xl font-semibold ">50</span> <br />
           EMPLOYEES
         </p>
+        </div>
       </div>
          </div>
          <div className="absolute right-0">

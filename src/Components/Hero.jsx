@@ -28,9 +28,9 @@ export default function Hero() {
         </p>
       </div>
       <div className="absolute inset-0 flex items-center justify-center mt-60">
-        {/* <button className="text-blue-500 text-center border-2 px-4 py-2 rounded bg-white border-white">
+        <button className="text-blue-500 text-center border-2 px-4 py-2 rounded bg-white border-white">
           <Link to="signup">Register Now</Link>
-        </button> */}
+        </button>
       </div>
     </div>
   );
