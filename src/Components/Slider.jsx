@@ -8,7 +8,7 @@ import React from "react";
 function Slider () {
   return (
     <>
-     <div className="">
+     <div className="overflow-hidden">
 
       <div className="flex">
         <div className="flex ml-20">
@@ -34,7 +34,7 @@ function Slider () {
         </div>
         <div className="flex ml-20">
           <img src={cloudvantange} alt="" />
-          <h1 className="text-2xl mt-5 ml-3.5">
+          <h1 className="text-2xl mt-4 ml-3.5">
             <span className="font-bold text-black">
               CLOUD
             </span>

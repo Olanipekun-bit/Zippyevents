@@ -17,7 +17,7 @@ const Testimonials = () => {
   const [current, setCurrent] = useState(0);
 
   return (
-    <div className="bg-amber-50 rounded-xl shadow-md p-8 text-center w-350 ml-12 mt-10">
+    <div className="bg-amber-50 rounded-xl shadow-md p-8 text-center w-350 ml-12 mt-10 overflow-hidden">
       <h3 className="text-blue-500 font-semibold mb-2">TESTIMONIALS</h3>
       <h2 className="text-2xl font-bold mb-6">
         Trusted by Early Adopters Worldwide

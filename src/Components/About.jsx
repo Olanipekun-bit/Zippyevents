@@ -2,7 +2,7 @@ import image2 from "../assets/images/image2.png"
 import { Link } from "react-router-dom";
 export default function About() {
   return (
-    <div className="flex ml-18.5 mt-10.5">
+    <div className="flex ml-18.5 mt-10.5 overflow-hidden">
          <div>
                 <h2 className="text-blue-500 italic ml-29">ABOUT US</h2>
       <p className="text-black font-bold text-2xl">
