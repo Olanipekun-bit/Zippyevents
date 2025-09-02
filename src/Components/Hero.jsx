@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import hero from "../assets/images/hero.jpg";
+import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen">
+      <Navbar/>
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${hero})` }}

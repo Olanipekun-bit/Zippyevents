@@ -1,21 +1,18 @@
-import Rectangle28 from "../assets/images/Rectangle28.png"
+import Rectangle28 from "../assets/images/Rectangle28.png";
 
 const PortfolioItem = () => (
-  <div className="ml-7 mt-5">
-    <img src={Rectangle28} alt="" />
+  <div className="mt-5">
+    <img src={Rectangle28} alt="" className="w-full object-cover object-center"/>
     <h1 className="ml-5 font-bold text-black mt-3">
       Breaking Barriers in Cloud Automation: Optimimizing Your Margins with
-      <br />
       Foreign Exchange (FX) Volatility
     </h1>
     <p className="ml-5 mt-3">
       Join industry experts as we explore cutting-edge cloud automation
-      strategies and <br />
-      learn how to leverage FX volatility to optimize your business margins.
-      This exclusive <br />
-      webinar will provide actionable insights for modern businesses looking to
-      stay ahead <br />
-      in the digital transformation era.
+      strategies and learn how to leverage FX volatility to optimize your
+      business margins. This exclusive webinar will provide actionable insights
+      for modern businesses looking to stay ahead in the digital transformation
+      era.
     </p>
     <div className="border-l-4 border-blue-500 pl-4 ml-5 mt-5">
       <p className="italic text-gray-700">
@@ -32,19 +29,14 @@ export default function PortfolioGrid() {
       <h2 className="text-blue-500 italic text-center">PORTFOLIO</h2>
       <h1 className="text-3xl text-black text-center font-bold">Past Events</h1>
 
-      <div className="grid grid-cols-2">
-        <div className="w-3xl">
-          <PortfolioItem />
-        </div>
-        <div className="w-3xl mr-40">
-          <PortfolioItem />
-        </div>
-        <div className="w-full">
-          <PortfolioItem />
-        </div>
-        <div className="w-full">
-          <PortfolioItem />
-        </div>
+      <div className="grid lg:grid-cols-2 grid-cols-1 p-5">
+        <PortfolioItem />
+
+        <PortfolioItem />
+
+        <PortfolioItem />
+
+        <PortfolioItem />
       </div>
     </div>
   );

@@ -34,8 +34,6 @@ export default function Footer() {
             </a> */}
           </div>
         </div>
-
-        {/* Quick Links */}
         <div>
           <h2 className="text-lg font-semibold mb-4">Quick Links</h2>
           <ul className="space-y-2 text-gray-300">
@@ -46,8 +44,6 @@ export default function Footer() {
             <li><a href="#">Get a Quote</a></li>
           </ul>
         </div>
-
-        {/* Our Services */}
         <div>
           <h2 className="text-lg font-semibold mb-4">Our Services</h2>
           <ul className="space-y-2 text-gray-300">

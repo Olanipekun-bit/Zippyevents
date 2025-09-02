@@ -3,7 +3,7 @@ export default function Navbar() {
   
     return (
     <>
-      <nav className="text-black space-x-4 p-4 flex text-right justify-end items-center">
+      <nav className="text-black space-x-4 p-4 flex text-right justify-end items-center relative z-50">
         <div className="absolute left-4 top-4">
           <Link to="/" className="text-2xl font-bodoni text-blue-500">
             <span className="text-4xl">Z</span>IPPY

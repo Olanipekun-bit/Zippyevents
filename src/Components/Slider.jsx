@@ -8,7 +8,7 @@ import React from "react";
 function Slider () {
   return (
     <>
-     <div className="overflow-hidden">
+     <div className="">
 
       <div className="flex">
         <div className="flex ml-20">
