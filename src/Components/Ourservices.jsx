@@ -9,9 +9,13 @@ function OurServices() {
         <p className="font-bold text-center font-black ">
           Corporate Event Management
         </p>
-        <div className="mt-3.5 grid md:grid-cols-3 grid-cols-2 gap-3.5 px-3.5 justify-center items-center">
+        <div className="mt-3.5 grid grid-cols-1 md:grid-cols-3 gap-3.5 px-3.5 justify-center items-center">
           <div>
-            <img src={image83} alt="" className="w-full object-center object-cover"/>
+            <img
+              src={image83}
+              alt=""
+              className="w-full object-center object-cover"
+            />
             <h2 className="font-black ">Event Management</h2>
             <p>
               Tempor sit dictum volutpat tortor. Mauris eleifend commodo mi{" "}
@@ -19,20 +23,27 @@ function OurServices() {
             </p>
           </div>
           <div>
-            <img src={image85} alt="" className="w-full object-center object-cover"/>
+            <img
+              src={image85}
+              alt=""
+              className="w-full object-center object-cover"
+            />
             <h2 className="font-black ">School Picnic</h2>
             <p>
-              Donec lectus maecenas odio pretium erat. Sed netus sit amet,{" "}
-              fames fermentum. Sed in nulla a nisl leo.
+              Donec lectus maecenas odio pretium erat. Sed netus sit amet, fames
+              fermentum. Sed in nulla a nisl leo.
             </p>
-          </div>
+         </div>
           <div>
-            <img src={companypicnic} alt=""className="w-full object-center object-cover" />
+            <img
+              src={companypicnic}
+              alt=""
+              className="w-full object-center object-cover"
+            />
             <h2 className="font-black ">Company Picnic</h2>
             <p>
-              Habitant mauris, est massa dignissim nulla et porttitor erat
-            
-              sed platea morbi tortor dignissim cursus.
+              Habitant mauris, est massa dignissim nulla et porttitor erat sed
+              platea morbi tortor dignissim cursus.
             </p>
           </div>
         </div>

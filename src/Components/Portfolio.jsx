@@ -1,9 +1,13 @@
 import Rectangle28 from "../assets/images/Rectangle28.png";
 
 const PortfolioItem = () => (
-  <div className="mt-5">
-    <img src={Rectangle28} alt="" className="w-full object-cover object-center"/>
-    <h1 className="ml-5 font-bold text-black mt-3">
+  <div className="shadow-lg rounded-lg p-6 ">
+    <img
+      src={Rectangle28}
+      alt=""
+      className="w-full object-cover object-center"
+    />
+    <h1 className="font-bold text-black mt-3">
       Breaking Barriers in Cloud Automation: Optimimizing Your Margins with
       Foreign Exchange (FX) Volatility
     </h1>
@@ -29,7 +33,7 @@ export default function PortfolioGrid() {
       <h2 className="text-blue-500 italic text-center">PORTFOLIO</h2>
       <h1 className="text-3xl text-black text-center font-bold">Past Events</h1>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 p-5">
+      <div className="grid lg:grid-cols-2 grid-cols-1 p-5 gap-4">
         <PortfolioItem />
 
         <PortfolioItem />

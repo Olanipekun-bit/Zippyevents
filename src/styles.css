@@ -1,7 +1,0 @@
-@import 'tailwindcss';
-
-@layer utilities {
-  .font-bodoni {
-    font-family: "Bodoni";
-  }
-}

@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
           <h1
             className="text-2xl font-bold mb-4"
-            style={{ fontFamily: "Bodoni, serif", color: "#1E90FF" }}
+            style={{ fontFamily: "Bodoni, serif" }}
           >
             Zippy Events
           </h1>
